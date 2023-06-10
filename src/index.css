@@ -15,6 +15,7 @@ body {
   color: #FFE3D8;
   padding: 10px;
   box-shadow: #BBBBBB 2px 2px 1px;
+  margin-top: 40%;
 }
 
 @media (hover :hover) {
