@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+
+
 const SecondsCounter = (props) => {
   return (
     <>
@@ -54,6 +56,6 @@ ReactDOM.render(
   />,
   document.querySelector("#root")
   );
-  console.log(counterUno, counterDos, counterTres, counterCuatro, counterCinco)
+  // console.log(counterUno, counterDos, counterTres, counterCuatro, counterCinco)
   counter++;
 }, 1000);
