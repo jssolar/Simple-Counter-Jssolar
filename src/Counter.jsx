@@ -30,7 +30,7 @@ const SecondsCounter = (props) => {
 // import SecondsCounter from './Counter';
 export default SecondsCounter;
 
-let counter = 1;
+let counter = 0;
 let counterUno = 0;
 let counterDos = 0;
 let counterTres = 0;
@@ -47,7 +47,8 @@ setInterval(() => {
 
 ReactDOM.render(
   <SecondsCounter
-    counterUno={Number(counterUno || 0)}
+    counterUno={counterUno}
+    // counterUno={Number(counterUno || 0)}
     counterDos={counterDos}
     counterTres={counterTres}
     counterCuatro={counterCuatro}
